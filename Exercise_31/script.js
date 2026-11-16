@@ -22,7 +22,6 @@ async function get_request() {
 
 // get_request()
 
-
 // async function post_data() {
 //     try{
 
