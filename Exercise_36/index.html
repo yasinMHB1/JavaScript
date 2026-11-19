@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="box-container">
+
+        <header>
+            <p id="logo">Color studio</p>
+            <h1>Interactive color picker</h1>
+            <p>Choose a shade to see it come to life and build your own color history.</p>
+        </header>
+        
+    <main>
+        <div class="grid-container">
+            <div class="pick-color">
+                <label for="color" class="content">Choose a Color</label>
+                <div class="color-container">
+                    <input type="color" id="color" name="color">
+                    <span class="hex-color">#000000</span>
+                </div>
+            </div>
+            
+            <div class="preview-container">
+                <p class="content">Color preview</p>
+                <div class="preview-color">
+                    <span class="hex-color">#000000</span>
+                </div>
+            </div>
+
+            <button id="clear-btn">clear history</button>
+        </div>
+            
+        <section class="history">
+            <div class="description">
+                <p>Color history</p>
+                <p id="color-count">1 color</p>                
+            </div>
+            
+            <div class="used-colors">
+
+                <div class="color-history">
+                    <div class="this-color" >
+                        <div class="previos-color"></div>
+                        <p class="hex-color">#000000</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    
+    
+   
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
