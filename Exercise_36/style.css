@@ -36,6 +36,10 @@ h1{
     font-size: 36px;
 }
 
+h1 span{
+    color: #1717b0;
+}
+
 header p{
     color: #6A6964;
     font-weight: 400;
